@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+nav .logo {
+    color: #cdbebe;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color: #c68e35;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1.5rem;
+}
+
+nav ul li a {
+    color: rgb(205, 189, 189);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+ul li a:hover{
+    color: #c68e35;
+}
+
+.signin{
+    background:#323131 !important;
+    color: white !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+
+
+}
+
+.signin:hover{
+    box-shadow: inset 5px 10px 10px rgb(0, 0, 0),
+    inset -4px -4px 10px rgb(0, 0, 0);
+transition: .2s;
+
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*******home******/
+
+
+#home{
+    background-color: #cdbebe;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+
+}
+#home h1{
+    font-size: 100px;
+   
+    color: rgb(40, 38, 38);letter-spacing: 3px;
+    font-family: "optima";
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 ;  
+       
+}
+
+#home p{
+    font-family: "optima";
+    font-size: 18px;
+    color: rgb(40, 36, 36);
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+
+
+
+#projects {
+    background: rgb(152, 127, 69);
+
+}
+
+#projects h1{
+    color: rgb(27, 25, 24);
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 800;
+
+}
+#projects h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:600;
+}
+
+#projects p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#product img{
+    width: 200px;
+    height: 200px;
+
+}
+
+#product h5{
+   font-family: kanit;
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    background: #cdbebe;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content:center;     
+    align-items: center;    
+    margin: 20px 60px;   
+
+}
+
+.card:hover{
+    box-shadow: inset 5px 10px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+
+}
+
+
+
+/*****contact*****/
+
+#Contact{
+    background: blanchedalmond;
+}
+
+#Contact h1{
+    color: #151414;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+
+/*****education*****/
+
+#Education {
+    background: linear-gradient(to right,#2f2c2c,#d43003 70%  );
+}
+
+#Contact h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
